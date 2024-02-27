@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <!--Agegar normalize PRIMERO-->
+    <link rel="preload" href="css/normalize.css"as="styles">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Agegar importancion de google fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+<!--enlace a css-->
     <link rel="preload" href="css/styles.css"as="styles">
     <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
@@ -14,7 +22,7 @@
         <h1 class="titulo">Fabian Leonardo Ceh Caro <span>Developer</span> </h1>
     </header>
 
-    <nav>
+    <nav class="navegacion-principal">
         <a href="http://www.google.com.mx">Inicio</a>
         <a href="#">Sobre mi</a>
         <a href="#">Clientes</a>

@@ -28,3 +28,24 @@ body{
 .navegacion-principal{
     background-color: var(--secundario);
 }
+
+.contenedor{
+   width: 120rem;
+  /*  margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto ;*/
+   /* margin: 0 auto 0 auto;*/
+   margin: 0 auto;
+}
+.nav-bg {
+    background-color:var(--secundario);
+}
+.navegacion-principal a{
+    background-color: var(--primario);
+}
+.navegacion-principal a{
+
+    color: #ffffff;
+    text-decoration: dashed;
+}

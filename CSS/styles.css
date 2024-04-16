@@ -1,51 +1,72 @@
+
 :root{
     --blanco: #ffffff;
-    --oscuro:   #212121;
-    --primario:  #ffc107;
-    --secundario:  #0097a7;
-    --gris:  #757575;
-
-
+    --oscuro:#212121;
+    --primario:#ffc107;
+    --secundario:#0097a7;
+    --gris:#757575;
 }
+
 
 html {
     font-size: 62.5%;
 }
 
 body{
-    font: size 16px;
+    font-size: 16px;
 }
-.titulo{
+
+.titulo {
     text-align: center;
     font-size: 3.8rem;
-    
+    color: brown;
 }
- .titulo span {
+
+.titulo span {
     font-size: 2rem;
-   
- }
+    color: gray;
+}
 
 .navegacion-principal{
     background-color: var(--secundario);
 }
 
-.contenedor{
-   width: 120rem;
-  /*  margin-top: 0;
+.contenedor {
+    width: 120rem;
+/* una manera de poner los 4 margenes en 4 propiedades 
+    width: 120rem;
+    margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
-    margin-right: auto ;*/
-   /* margin: 0 auto 0 auto;*/
-   margin: 0 auto;
+    margin-right: auto;
+    */
+    /margin: 0 auto 0 auto; tomando las posiciones de un reloj/
+    margin: 0 auto; /* el primer valor corresponde a top-bottom y el segundo valor corresponde a right-left*/
 }
-.nav-bg {
-    background-color:var(--secundario);
-}
-.navegacion-principal a{
-    background-color: var(--primario);
-}
-.navegacion-principal a{
 
-    color: #ffffff;
-    text-decoration: dashed;
+.nav-bg {
+
+    background-color: var(--secundario);
 }
+
+.navegacion-principal{
+    
+    display: flex;
+    justify-content: space-between;
+
+    /*justify-content es para filas 
+    align-items es para columnas (flex-direction)*/
+    font-size: 2rem;
+    font-weight: bold;/*negritas*/
+}
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+.navegacion-principal a{
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    
+}*

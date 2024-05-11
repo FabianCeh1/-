@@ -69,4 +69,24 @@ body{
     color: var(--blanco);
     text-decoration: none;
     
-}*
+}
+/*
+Tamaños recomendados para media query
+480 px para dispositivos moviles
+768 para tablets
+1140 para laptops
+1400 px para dispositivodd msd gtsnfrd
+*/
+
+@media (min-width:480px ){
+    body{
+        background-color:blue
+
+    }
+}
+@media (min-width:768px ){
+    body{
+        background-color: cornflowerblue;
+    }
+
+    
